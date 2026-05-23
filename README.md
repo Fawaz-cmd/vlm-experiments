@@ -48,3 +48,39 @@ ViT-GPT2 struggled with domain-specific understanding and generated hallucinated
 "a black and white photo of a black and white photo of a wall"
 
 This highlighted the importance of domain adaptation and specialized medical VLMs.
+
+## Sample Outputs
+
+### Football Image
+
+Input Image:
+
+![Football Image](football_image.png)
+
+Generated Caption (BLIP):
+> "a painting of children playing soccer in a field"
+
+Generated Caption (ViT-GPT2):
+> "young men playing a game of soccer"
+
+---
+
+### X-ray Image
+
+Input Image:
+
+![Xray Image](xray_image.png)
+
+Generated Caption (BLIP):
+> "an x-ray of the right arm"
+
+Generated Caption (ViT-GPT2):
+> "a black and white photo of a black and white photo of a wall"
+
+---
+
+## Observations
+
+- BLIP produced more context-aware captions.
+- ViT-GPT2 struggled with medical-style images.
+- The experiments highlighted limitations of general-purpose VLMs on specialized medical domains.
