@@ -39,3 +39,12 @@ Example:
 
 ### Observation
 The experiments showed that general-purpose VLMs perform better on natural images than specialized medical images, highlighting the importance of domain-specific medical VLMs.
+
+### Model Comparison
+
+BLIP produced more accurate and context-aware captions compared to ViT-GPT2, especially for medical-style X-ray images.
+
+ViT-GPT2 struggled with domain-specific understanding and generated hallucinated outputs such as:
+"a black and white photo of a black and white photo of a wall"
+
+This highlighted the importance of domain adaptation and specialized medical VLMs.
